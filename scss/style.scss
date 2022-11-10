@@ -1,0 +1,74 @@
+@import 'variables';
+@import 'navbar';
+
+.center {
+    text-align: center;
+    color: $color-texto;
+}
+footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    color: $color-texto;
+    width: 100%;
+    position: block;
+    text-decoration: none;
+}
+.grid {
+    display: grid;  
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 1fr 1fr; 
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+ }
+ body{
+    background-color: $color-fondo;
+ }
+.color {
+    color: $color-texto;
+    font-weight: bold;
+}
+.texto {
+    text-align: center;
+    color: $color-texto;
+    margin: 15px auto;
+    padding: 10px;
+    width: 800px;
+    height: auto;
+}
+.animate__fadeIn {
+    animation-duration: 2s;
+}
+.animate__fadeInLeft {
+    animation-duration: 2s;
+}
+.animate__fadeInRight {
+    animation-duration: 2s;
+}
+.animate__zoomIn {
+    animation-duration: 2s;
+}
+
+#Galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 10px;
+}
+#Galeria img{
+    width: 100%;
+    height: 100%;
+}
+#Galeria img:hover {
+    filter: saturate(150%);
+    border: 1px solid $color-navhover;
+}
+.galery{
+    margin-top: 5px;
+    border-top: 0;
+    color: $color-texto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
