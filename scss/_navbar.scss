@@ -1,25 +1,14 @@
-ul {
-    overflow: hidden;
-    list-style: none;
-    display: inline-flex;
-    nav {
-        background-color: $color-nav;
-        top: 0;
-        width: 100%;
-        text-align: center;
-        position: block;
-        font-weight: bold;
+li a {
+    float: left;
+    color: $color-texto;
+    display: fixed;
+    padding: 15px;
+    text-decoration: none;
+    &:hover {
+        background-color: $color-navhover;
         text-decoration: none;
-        transition: top 0.3s;
-        li a {
-            float: left;
-            color: $color-texto;
-            display: fixed;
-            padding: 15px;
-            text-decoration: none;
-            li a:hover {
-                background-color: $color-navhover;
-                text-decoration: none;}
-            }
-        }
+            &:active{
+            color: $color-navhover;
+        }    
     }
+}
