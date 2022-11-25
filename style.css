@@ -59,7 +59,7 @@ footer {
   font-family: sans-serif;
   color: white;
   width: 100%;
-  position: block;
+  position: fixed;
   text-decoration: none; }
 
 body {
